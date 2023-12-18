@@ -34,7 +34,7 @@ const paths = {
 
 const copyFiles = () => {
   return gulp
-    .src('./dist/*')
+    .src('./dist/**/*/*')
     .pipe(gulp.dest('./docs'));
 };
 
