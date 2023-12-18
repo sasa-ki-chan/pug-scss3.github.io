@@ -1,0 +1,4 @@
+@use "./variable" as var;
+.inner {
+    background-color: var.$color;
+}

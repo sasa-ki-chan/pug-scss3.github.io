@@ -4,11 +4,19 @@ html(lang='ja')
 		meta(charset='UTF-8')
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
 		link(rel='stylesheet', href='css/style.css')
-		title タイトルs
-		meta(name='description', content='')
+		link(rel='icon', href='../favicon.png', type='image/png')
+		title 佐々木のホームページ
+		meta(name='description', content='佐々木のホームページです')
+		meta()
 		meta(name='keywords', content='')
-	body
+	body.text-center
 		#content
 			.inner
-				p Hello Pug
+				h1.homepage 佐々木のホームページ
+				| 
+				img(src="../img/assets/sasaki.png" width="300vw" height="auto")
+				
+			a(href="2nd.html") 現在工事中です
+			- for (var x = 0; x <= 5; x++)
+				li number#{x}
 		script(src='js/script.js')

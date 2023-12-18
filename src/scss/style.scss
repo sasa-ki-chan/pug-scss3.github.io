@@ -1,0 +1,5 @@
+@use "./variable" as var;
+@use "./test";
+.sample {
+  color: var.$color;
+}
